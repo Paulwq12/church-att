@@ -1,0 +1,24 @@
+{
+    "name": "church-attendance",
+    "version": "1.0.0",
+    "description": "A simple church attendance system with user registration and admin dashboard.",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "dev": "nodemon server.js"
+    },
+    "dependencies": {
+      "body-parser": "^1.19.0",
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "fs": "0.0.1-security"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.7"
+    },
+    "engines": {
+      "node": ">=14.0.0"
+    },
+    "author": "Your Name",
+    "license": "MIT"
+  }
